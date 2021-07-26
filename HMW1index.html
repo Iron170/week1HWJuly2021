@@ -18,42 +18,56 @@
             text-align: center;
         }
 
-        #brochure   {
+        #Brochure   {
             display: flex;
             height: 700px;
-            width: 30%;
+            /* width: 30%; */
         }
         /*  parent  > children elements
             select all of the children element that 
             have that specific parent 
         */
-        #brochure  > div {
-            width: 30%;
+        #Brochure  > div {
+            
             text-align: center;
         }
 
         .col1 {
-            display: flex;
+            flex: 1;
             flex-direction: column;
             padding-top: 40px;
             padding-bottom: 30px;
-            border-right: 10px solid
+            border-right: 10px solid;
+        }
+
+        .col1image {
+            background-image: url(/images/americanFlag.png);
+            height: 250px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            
         }
 
         .col2  {
-            display: flex;
+            flex: 1;
             flex-direction: column;
             padding-top: 50px;
             padding-bottom: 30px;
-            border-right: 10px solid
+            border-right: 10px solid;
         }
 
         .col3 {
-            display: flex;
+            flex: 1;
             flex-direction: column;
             padding-top: 50px;
             padding-bottom: 30px;
-            border-right: 10px solid
+            /* border-right: 10px solid */
+        }
+        .col3image {
+            background-image: url(/images/VITlogo.png);
+            height: 250px;
+            background-size: contain;
+            background-repeat: no-repeat;
         }
 
     </style>
@@ -66,11 +80,48 @@
             <div><h1><u>Follow Us On Social Media</u></h1>
             </div>
         <br>
-            <div>
-                <img src="images/americanFlag.png" alt= "americanFlag">
-        </div>
+        <div class="col1image"></div>
+            <!-- <div>
+                <img src="images/americanFlag.png" alt= "americanFlag"> -->
+        </div> -->
+        <div class="col2">
+
+        <!-- </div> -->
+    
+        <br>
+        <div>
+            <h1><u>Contact Us</u></h1>
+            <!-- </div> -->
+        <!-- </div> -->
+            <h3>Phone Number:</h3>
+            <h3>(888)888-8888</h3>
+    
+            <h3>Email Address:</h3>
+            <h3>hpascal@hotmail.com</h3>
+    
+            <h3>Address:</h3>
+            <h3>1110 East 5771 </h3>
+            <h3>New York, New Yok 11033 USA</h3>
     </div>
-    <div class="col2">
+    </div>
+    <div class="col3">
+    <!-- </div> -->
+       <div class="col3image"></div>
+    <!-- </div> -->
+    <div>
+
+        <h3>Come Attend VetsInTech Openhouse</h3>
+        <h3>Live Q/A</h3>
+        <h3>Time: 20:00 hrs EST</h3>
+        <h3>Date: August 04, 2021</h3>
+        
+    </div>
+    <div>
+        <!-- <img src="images/VITlogo.png" alt="VITlogo"> -->
+    </div>
+    </div>
+    </div>
+    <!-- <div class="col2">
 
     </div>
 
@@ -88,10 +139,10 @@
         <h3>Address:</h3>
         <h3>1110 East 5771 </h3>
         <h3>New York, New Yok 11033 USA</h3>
-</div>
+</div> -->
 <br>
 
-<div class="col3">
+<!-- <div class="col3">
     </div>
         <img src="images/treeBranch.png" alt="images/treeBranch">
     </div>
@@ -105,7 +156,7 @@
     </div>
     <div>
         <img src="images/VITlogo.png" alt="VITlogo">
-    </div>
+    </div> -->
 
     
 </body>
